@@ -8,10 +8,10 @@
 
 ![System Demo](assets/demo.gif)
 
-## Overview
+## 📖 Overview
 The **Vision-Aided Wildfire Location and Area Mapping System** is a comprehensive computer vision solution designed to automatically detect, segment, and geolocate wildfires. By leveraging aerial imagery (RGB and Infrared), the system not only identifies the presence of fire and smoke but also calculates the **burned area** and **GPS coordinates** of the fire front.
 
-### Why It Matters
+### 🎯 Why It Matters
 Wildfires spread rapidly and often occur in inaccessible terrain. Traditional detection methods can lack precision regarding the fire's exact spread. This system empowers emergency responders by providing:
 * **Urgency Assessment:** Accurate area calculations to gauge fire size.
 * **Precision Targeting:** GPS coordinates to guide helicopter pilots for water drops.
@@ -19,7 +19,7 @@ Wildfires spread rapidly and often occur in inaccessible terrain. Traditional de
 
 ---
 
-## Key Features
+## ✨ Key Features
 * **Multi-Spectral Detection:** Specialized models for both **Daytime** (RGB) and **Nighttime** (Infrared/Thermal) scenarios.
 * **Advanced Segmentation:** Utilizes **SAM 2 (Segment Anything Model 2)** to convert bounding boxes into precise fire masks.
 * **Small Object Detection:** Integrated **SAHI (Slicing Aided Hyper Inference)** to detect small, distant fires by slicing high-resolution images.
@@ -27,7 +27,7 @@ Wildfires spread rapidly and often occur in inaccessible terrain. Traditional de
 
 ---
 
-## Tech Stack & Pipeline
+## 🛠️ Tech Stack & Pipeline
 
 The system employs a multi-stage pipeline to ensure high accuracy:
 
@@ -45,7 +45,7 @@ The system employs a multi-stage pipeline to ensure high accuracy:
 
 ---
 
-## Performance & Results
+## 📊 Performance & Results
 
 Based on the training metrics and evaluation on test sets:
 
@@ -75,7 +75,7 @@ Note: The sudden dips in the graph are caused by frames where the model didn't s
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 The project is designed to run in a **Google Colab** environment with GPU acceleration.
 
@@ -108,14 +108,14 @@ Don't have aerial footage handy? We have provided a few sample images in the `ex
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 * **Automated Router:** Implement a classifier to automatically detect time-of-day (Day vs. Night) and load the appropriate model dynamically.
 * **Plug-and-Play Interface:** Develop a web interface (Streamlit/Flask) to remove the need for manual Colab setup and code execution.
 * **Mask Independence:** Research methods to calculate GPS/Area with reduced dependency on perfect segmentation masks to improve robustness in complex visual conditions.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 Wildfire-Mapping-System/
@@ -144,7 +144,7 @@ Wildfire-Mapping-System/
 ```
 ---
 
-## References & Datasets
+## 📚 References & Datasets
 
 This project was made possible by the following datasets and open-source libraries:
 
@@ -161,7 +161,7 @@ This project was made possible by the following datasets and open-source librari
 
 ---
 
-## Citation
+## 🖊️ Citation
 
 If you find this project useful for your research, please cite it as follows:
 
