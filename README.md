@@ -73,6 +73,13 @@ Note: The sudden dips in the graph are caused by frames where the model didn't s
 
 ![Area Graphs](assets/Area_and_growth_graphs.png)
 
+### 📍 Geospatial Data Output
+The system generates a detailed frame-by-frame analysis file (`results/ir_fire_geo_area_growth.csv`) containing:
+* **GPS Coordinates:** Latitude/Longitude of the fire's centroid.
+* **Area:** Calculated burn area in square meters ($m^2$).
+* **Growth Rate:** Rate of spread ($m^2/s$).
+* **Confidence Score:** Model detection confidence for each frame.
+
 ---
 
 ## 🚀 How to Run
@@ -115,11 +122,11 @@ Don't have aerial footage handy? We have provided a few sample images in the `ex
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Structure
 
 ```text
 Wildfire-Mapping-System/
-├── assets/                       # Images for the README
+├── assets/                      # Images for the README
 │   ├── daytime_before_after1.png 
 │   ├── daytime_before_after2.png
 │   ├── demo.gif                  
@@ -135,7 +142,8 @@ Wildfire-Mapping-System/
 ├── notebooks/                   # Source code notebooks
 │   ├── Daytime_Code.ipynb
 │   └── IR_Code.ipynb
-├── results/                     # Evaluation outputs (JSONs only)
+├── results/                     # Evaluation outputs
+│   ├── ir_fire_geo_area_growth.csv  
 │   ├── Daytime_coco_instances_results.json
 │   └── IR_coco_instances_results.json
 ├── .gitignore                   # Ignored files (large weights, datasets)
