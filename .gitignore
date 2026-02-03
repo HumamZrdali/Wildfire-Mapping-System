@@ -1,0 +1,16 @@
+# Ignore model weights (too large for GitHub)
+*.pth
+*.pkl
+model_final.pth
+
+# Ignore datasets
+datasets/
+D-Fire/
+FLAME/
+
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/

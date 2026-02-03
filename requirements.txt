@@ -1,0 +1,19 @@
+# Core Data Science & Vision
+numpy
+opencv-python
+matplotlib
+pandas
+tqdm
+
+# Deep Learning (PyTorch)
+torch>=2.0.0
+torchvision
+
+# Slicing Aided Hyper Inference
+sahi
+
+# Detectron2
+git+https://github.com/facebookresearch/detectron2.git
+
+# Segment Anything Model 2 (SAM2)
+git+https://github.com/facebookresearch/segment-anything-2.git
