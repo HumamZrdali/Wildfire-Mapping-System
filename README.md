@@ -1,12 +1,12 @@
 # Vision-Aided Wildfire Location and Area Mapping System
 
-![System Demo](assets/demo.gif)
-
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C)
 ![Detectron2](https://img.shields.io/badge/Detectron2-Object%20Detection-black)
 ![SAM2](https://img.shields.io/badge/SAM2-Segmentation-success)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Colab-orange)
+
+![System Demo](assets/demo.gif)
 
 ## Overview
 The **Vision-Aided Wildfire Location and Area Mapping System** is a comprehensive computer vision solution designed to automatically detect, segment, and geolocate wildfires. By leveraging aerial imagery (RGB and Infrared), the system not only identifies the presence of fire and smoke but also calculates the **burned area** and **GPS coordinates** of the fire front.
@@ -141,7 +141,7 @@ Wildfire-Mapping-System/
 ├── .gitignore                   # Ignored files (large weights, datasets)
 ├── README.md                    # Project documentation
 └── requirements.txt             # Dependency list
-
+```
 ---
 
 ## References & Datasets
